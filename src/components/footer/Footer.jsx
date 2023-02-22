@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from '../container/Сontainer'
+import logo2 from '../../assets/img/logo-o.svg'
 import './footer.css'
 
 export default function Footer() {
@@ -7,7 +8,7 @@ export default function Footer() {
     <footer class="footer">
     <Container>
       <div class="footer__content">
-        <img class="footer__logo" src="../../assets/img/logo-o.svg" alt="Логотип YourMeal"/>
+        <img class="footer__logo" src={logo2} alt="Логотип YourMeal"/>
 
         <address class="footer__address">
           <div class="footer__contact">
