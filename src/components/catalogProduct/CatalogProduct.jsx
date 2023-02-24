@@ -14,7 +14,7 @@ export default function CatalogProduct({item}) {
     <article className={style.product}>
         <img src={`${API_URI}/${item.image}`} alt={item.title} className={style.product__image}/>
 
-        <p className={style.product__price}>{item.price}<span className={style.currency}>₽</span></p>
+        <p className={style.product__price}>{item.price}<span className={style.currency}>&nbsp;₽</span></p>
 
         <h3 className={style.product__title}>
         <button className={style.product__detail}>{item.title}</button>
